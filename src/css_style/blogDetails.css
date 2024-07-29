@@ -1,0 +1,121 @@
+.blogDetails_main_container{
+    width: 100vw;
+    height: auto;
+    padding-top: 60px;
+    padding-left: 77px;
+    padding-right: 77px;
+    /* padding-top: 10px; */
+    padding-bottom: 60px;
+    border: 1px solid black;
+}
+
+.blogDetailsImage1{
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.blogDetailsImage1 img{
+    margin-bottom: 40px;
+}
+
+.blogDetailsImage1 h3{
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    font-size: 24px;
+}
+
+.blogDetailsImage1 .post-social{
+    color: #777;
+    text-align: left;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.blogDetailsImage1 ul{
+    color: #777;
+    margin-bottom: 15px;
+    padding-left: 0;
+    margin-top: 0;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.blogDetailsImage1 ul li{
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    border-right: 1px solid #ddd;
+    unicode-bidi: isolate;
+    padding: 10px;
+}
+
+.blogDetailsImage1 ul li i{
+    padding-right: 3px;
+}
+
+.blogDetailsImage1 ul li i .fa{
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-heart:before {
+    content: "";
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.fa-comments:before {
+    content: "";
+}
+
+.blogDetailsImage1 p{
+    color: #777;
+    line-height: 1.8;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+
+.blogDetails_main_container .col-md-12{
+    display: flex;
+    flex-direction: column;
+}
+
+.blogDetails_main_container .col-md-12 .col-12{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: 992px) {
+    .blogDetails_main_container .col-md-12 .col-12 .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+        height: 450px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+}
+
+.col-sm-12{
+    width: 100%;
+    height: auto;
+}

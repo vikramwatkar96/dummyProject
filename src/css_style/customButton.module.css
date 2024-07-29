@@ -1,0 +1,29 @@
+.customButton_title{
+    width: 180px;
+    height: 42px;
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f51a06;
+    background-color: #ff4c3b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0px;
+     
+}
+.customButton_title:hover{
+    border: 2px solid #ff4c3b;
+    background-color: #fff;
+    transition: .3s ease-in-out;
+    color: black;
+}
+
+.customButton_Margin{
+  margin-top: 20px;
+  margin-left: 150px;
+}

@@ -1,0 +1,33 @@
+.buttondiv{
+    width: auto;
+    height: 100%;
+    display: flex;
+    padding: 10px 20px;
+    
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f51a06;
+    background-color: #ff4c3b;
+     
+}
+.btn-solid1{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.buttondiv:hover{
+    border: 2px solid #ff4c3b;
+    background-color: #fff;
+    transition: .3s ease-in-out;
+    .btn-solid1{
+        color: black;
+    }
+}
+
+
+
+
+

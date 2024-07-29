@@ -1,0 +1,30 @@
+.star {
+    color: #ffa200;
+    font-size: 14px;
+}
+
+.starzero {
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.starposition {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-wrapper {
+    display: inline-block;
+    position: absolute;
+    transform: scale(-10%, -10%);
+    bottom: 2px;
+    right: 2px;
+    transition: transform 0.7s ease, color 0.5s ease;
+}
+
+.icon-wrapper.hovered {
+    transform: scale(1);
+    /* transform: translateX(5px); */
+
+    /* color: gold; */
+}

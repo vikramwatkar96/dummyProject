@@ -1,0 +1,192 @@
+*{
+  font-family: Lato , sans-serif;
+}
+
+.card-set-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+}
+/* .card-set-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} */
+.card{
+  padding: 0em;
+}
+
+.card-set {
+  width: 247px;
+  height: 450px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  /* width: 300px; */
+  /* flex: 1 0 300px; */
+  /* height: 552px; */
+}
+
+.main-image-container {
+  position: relative;
+  padding: 0px;
+}
+
+.main-image {
+  position: relative;
+  /* width: 100%; */
+  /* max-width: 400px; */
+  overflow: hidden;
+  padding-left: 1px;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* .thumbnails {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+} */
+
+.thumbnail {
+  width: 37px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.thumbnail.active{
+  opacity: 1;
+}
+
+.icon {
+  opacity: 0.6;
+  cursor: pointer;
+  margin-bottom: 10px;
+  /* transition: color 0.3s ease; */
+}
+
+.icon:hover {
+  color: #f02f09;
+ 
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+}
+
+.icon-wrapper {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* .icon-wrapper>button {
+  margin-right: 5px;
+} */
+
+.icon-wrapper {
+  display: inline-block;
+  position: absolute;
+  transform: scale(-10%, -10%);
+  bottom: 2px;
+  right: 2px;
+  transition: transform 0.7s ease, color 0.5s ease;
+}
+
+/* .icon-wrapper.hovered {
+  transform: scale(1);
+} */
+
+.icon-wrapper {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.icon-wrapper.hovered {
+  display: block;
+}
+
+/* .main-image {
+  width: 246px;  
+    height: 345px;
+} */
+
+.icon-wrapper {
+  display: none;
+  /* Hidden by default */
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.icon-wrapper {
+  display: none;
+  /* Hidden by default */
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.icon-wrapper.hovered {
+  display: block;
+}
+
+.color-variants {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.color-variant {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  /* transition: transform 0.3s ease-in-out; */
+}
+
+.pname {
+  display: flex;
+  flex-direction: row;
+  color: #777;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.oldprice{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #aaa;
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-top: 3px;
+  margin-left: 5px;
+}

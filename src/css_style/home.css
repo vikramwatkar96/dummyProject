@@ -1,0 +1,83 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.section-t-space {
+
+  padding-top: 70px;
+  font-family: Lato, sans-serif;
+  color: #ec2424;
+
+
+}
+
+.title-inner1 {
+  /* padding-bottom: 15px; */
+  margin-top: 1px;
+  margin-bottom: 30px;
+  position: relative;
+
+}
+
+h2 {
+  font-size: 36px;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: .02em;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  position: relative;
+  background: #fff;
+  font-size: 14px;
+  overflow-x: hidden;
+  letter-spacing: .8px;
+}
+
+hr {
+  width: 70px;
+  height: 5px;
+  background-color: #ec2424;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.productclick {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.clickable {
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.offername {
+  font-size: 20px;
+  color: #ec2424;
+}
+
+.clickable.active {
+  background-color: #ec2424;
+  /* Example hover effect */
+}

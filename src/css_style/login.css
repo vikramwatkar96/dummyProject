@@ -1,0 +1,133 @@
+.theme-card {
+    position: relative;
+}
+
+.theme-card {
+    padding: 30px;
+    border: 1px solid #ddd;
+    line-height: 1;
+}
+
+.card-right {
+    height: calc(100%);
+}
+
+
+p {
+    font-size: 14px;
+    color: #555;
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+
+.authentication-right {
+    height: calc(100%);
+}
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.col-lg-6 h3 {
+    text-transform: uppercase;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+
+
+.row>* {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-shrink: 0;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.authentication-right h6 {
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* ------------------------button css----------------------- */
+.btn-solid {
+    padding: 13px 29px;
+    color: #fff !important;
+    letter-spacing: .05em;
+    border: 2px solid #ff4c3b;
+    border-color: #ff4c3b !important;
+    background-image: linear-gradient(30deg, #ff4c3b 50%, transparent 50%);
+    background-size: 540px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn {
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 0;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #ff4c3b;
+    color: #fff;
+    border-color: #ff4c3b;
+}
+
+/* ------------------------label css----------------------- */
+label {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Lato, sans-serif;
+    margin-bottom: .5rem;
+    display: inline-block;
+}
+
+/* ---------------------InputType css------------------------------- */
+input {
+    font-size: 12px;
+    padding: 17px 25px;
+    margin-bottom: 30px;
+    height: inherit;
+}
+
+.form-control {
+    width: 100%;
+    font-family: Lato, sans-serif;
+    letter-spacing: .8px;
+}
